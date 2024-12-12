@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nouni - Crocoun Food</title>
+    <meta name="title" content="Nouni - Nouni Crocoun Food">
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="./images/favicon.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preload" href="./images/hero-slider-1.jpg">
+    <link rel="preload" href="./images/hero-slider-2.jpg">
+    <link rel="preload" href="./images/hero-slider-3.jpg">
+</head>
+
+<body>
+
+    <div class="preload " data-preaload>
+        <div class="circle"></div>
+        <p class="text">Nouni</p>
+    </div>
+
+    <div class="topbar">
+        <div class="container">
+            <address class="topbar-item">
+                <div class="icon">
+                    <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <span class="span">45 Boulevard Chave 13005, Marseille</span>
+            </address>
+            <div class="separator"></div>
+            <div class="topbar-item item-2">
+                <div class="icon">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <span class="span">Tous les jours : 10h - 22h </span>
+            </div>
+            <a href="tel: +33 6 01 02 03 04" class="topbar-item link">
+                <div class="icon"><ion-icon name="call-outline" aria-hidden="true"></ion-icon></div>
+                <span class="span"> +33 6 01 02 03 04</span>
+            </a>
+            <div class="separator"></div>
+            <a href="mailto: nouni@restaurant.com" class="topbar-item link">
+                <div class="icon"><ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <span class="span">nouni@restaurant.com</span>
+            </a>
+        </div>
+    </div>
+
+
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <img src="./images/logo.png" width="260" height="50" alt="Nouni - Home">
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+                <button class="close-btn" aria-label="close menu" data-nav-toggler>
+                    <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                <a href="#" class="logo">
+                    <img src="./images/logo.png" width="160" height="50" alt="Nouni - Home">
+                </a>
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="#home" class="navbar-link hover-underline active">
+                            <div class="separator"></div>
+
+                            <span class="span">Acceuil</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#menu" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+
+                            <span class="span">Menus</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#about" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+
+                            <span class="span">À Propos</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+
+                            <span class="span">Notre histoire</span>
+                        </a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#footer" class="navbar-link hover-underline">
+                            <div class="separator"></div>
+
+                            <span class="span">Contact</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="text-center">
+                    <p class="headline-1 navbar-title">Nous localiser</p>
+
+                    <address class="body-4">
+                        45 Boulevard Chave,<br>
+                        13005, Marseille
+                    </address>
+
+                    <p class="body-4 navbar-text">Ouvert de: 10h à 22h</p>
+
+                    <a href="mailto:Nouni@restaurant.com" class="body-4 sidebar-link">nouni@restaurant.com</a>
+
+                    <div class="separator"></div>
+
+                    <p class="contact-label">Pour toutes réservations</p>
+
+                    <a href="tel:+ +33 6 01 02 03 04" class="body-1 contact-number hover-underline">
+                        +33 6 01 02 03 04
+                    </a>
+                </div>
+
+            </nav>
+
+            <a href="#reservation" class="btn btn-secondary">
+                <span class="text text-1">Trouver Une Table</span>
+
+                <span class="text text-2" aria-hidden="true">Trouver Une Table</span>
+            </a>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+
+
+
+    <main>
+        <article>
+
+
+            <section class="hero text-center" aria-label="home" id="home">
+
+                <ul class="hero-slider" data-hero-slider>
+
+                    <li class="slider-item active" data-hero-slider-item>
+                        <div class="slider-bg">
+                            <img src="./images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+                        </div>
+
+                        <p class="lable-2 section-subtitle slider-reveal">Lorem, ipsum dolor.</p>
+
+                        <h1 class="display-1 hero-title slider-reveal">
+                            Pour l'amour<br>
+                            des délicieuses croquouns
+                        </h1>
+
+                        <p class="body-2 hero-text slider-reveal">Venez avec vos chats & régalez vous
+
+                            <a href="#menu" class="btn btn-primary slider-reveal">
+
+                                <span class="text text-1">Voir notre Menu</span>
+
+                                <span class="text text-2" aria-hidden="true">>Voir notre Menu</span>
+
+                            </a>
+                    </li>
+
+
+                    <li class="slider-item" data-hero-slider-item>
+                        <div class="slider-bg">
+                            <img src="./images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+                        </div>
+
+                        <p class="lable-2 section-subtitle slider-reveal">incroyable experience</p>
+
+                        <h1 class="display-1 hero-title slider-reveal">
+                            Recettes <br>
+                            de Saisons
+                        </h1>
+
+                        <p class="body-2 hero-text slider-reveal">Venez avec vos chats & régalez vous
+                        </p>
+
+                        <a href="#menu" class="btn btn-primary slider-reveal">
+
+                            <span class="text text-1">Voir notre Menu</span>
+
+                            <span class="text text-2" aria-hidden="true">Voir notre Menu</span>
+
+                        </a>
+                    </li>
+
+
+
+
+
+                    <li class="slider-item" data-hero-slider-item>
+                        <div class="slider-bg">
+                            <img src="./images/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover">
+                        </div>
+
+                        <p class="lable-2 section-subtitle slider-reveal"> incroyable & délicieux</p>
+
+                        <h1 class="display-1 hero-title slider-reveal">
+                            Chaque croquoun <br>
+                            est une histoire
+                        </h1>
+
+                        <p class="body-2 hero-text slider-reveal">Venez avec vos chats & régalez vous
+                        </p>
+
+                        <a href="#menu" class="btn btn-primary slider-reveal">
+
+                            <span class="text text-1">Voir notre Menu</span>
+
+                            <span class="text text-2" aria-hidden="true">Voir notre Menu</span>
+
+                        </a>
+                    </li>
+
+                </ul>
+
+
+                <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+                    <ion-icon name="chevron-back"></ion-icon>
+                </button>
+
+                <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+                    <ion-icon name="chevron-forward"></ion-icon>
+                </button>
+
+                <a href="#reservation" class="hero-btn has-after">
+                    <img src="./images/hero-icon.png" width="48" height="48" alt="booking-icon">
+
+                    <span class="lable-2 text-center span">Réserver Une Table</span>
+                </a>
+            </section>
+
+
+            <section class="section service bg-black-10 text-center" aria-lable="service">
+
+                <div class="container">
+
+                    <p class="section-subtitle lable-2">Saveurs Royales</p>
+
+                    <h2 class="headeline-1 section-title">La Qualité À Son Sommet</h2>
+
+                    <p class="section-text">
+                        Vivez l'apogée de la gastronomie dans notre restaurant,
+                        où chaque plat témoigne de notre engagement envers l'excellence et l'innovation culinaire.</p>
+
+                    <ul class="grid-list">
+
+                        <li>
+
+                            <div class="service-card">
+
+                                <a href="#" class="has-before hover:shine">
+                                    <figure class="card-banner img-holder" style="--width: 285; --height:336;">
+                                        <img src="./images/service-1.jpg" width="285" height="336" loading="lazy"
+                                            alt="Breakfast" class="img-cover">
+                                    </figure>
+                                </a>
+
+                                <div class="card-content">
+
+                                    <h3 class="title-4 card-title">
+                                        <a href="#">Petit-Déjeuner</a>
+                                    </h3>
+
+                                    <a href="#menu" class="btn-text hover-underline lable-2">Voir le Menu</a>
+
+                                </div>
+
+                            </div>
+
+                        </li>
+
+
+
+
+                        <li>
+
+                            <div class="service-card">
+
+                                <a href="#" class="has-before hover:shine">
+                                    <figure class="card-banner img-holder" style="--width: 285; --height:336;">
+                                        <img src="./images/service-2.jpg" width="285" height="336" loading="lazy"
+                                            alt="Appetizers" class="img-cover">
+                                    </figure>
+                                </a>
+
+                                <div class="card-content">
+
+                                    <h3 class="title-4 card-title">
+                                        <a href="#">Nos Viande</a>
+                                    </h3>
+
+                                    <a href="#menu" class="btn-text hover-underline lable-2">Voir le Menu</a>
+
+                                </div>
+
+                            </div>
+
+                        </li>
+
+
+
+
+                        <li>
+
+                            <div class="service-card">
+
+                                <a href="#" class="has-before hover:shine">
+                                    <figure class="card-banner img-holder" style="--width: 285; --height:336;">
+                                        <img src="./images/service-3.jpg" width="285" height="336" loading="lazy"
+                                            alt="Drinks" class="img-cover">
+                                    </figure>
+                                </a>
+
+                                <div class="card-content">
+
+                                    <h3 class="title-4 card-title">
+                                        <a href="#">Boisson</a>
+                                    </h3>
+
+                                    <a href="#menu" class="btn-text hover-underline lable-2">Voir la Carte</a>
+
+                                </div>
+
+                            </div>
+
+                        </li>
+
+                    </ul>
+
+                    <img src="./images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+                        class="shape shape-1 move-anim">
+
+                    <img src="./images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+                        class="shape shape-2 move-anim">
+
+
+                </div>
+            </section>
+
+
+
+
+            <section class="section about text-center" aria-labelledby="about-lable" id="about">
+                <div class="container">
+
+                    <div class="about-content">
+                        <p class="lable-2 section-subtitle" id="about-lable">Notre Histoire</p>
+
+                        <h2 class="headline-1 section-title">Chaque Saveur Raconte une Histoire</h2>
+
+                        <p class="section-text">Bienvenue au <b>Nouni Restaurant</b>, où chaque plat raconte une
+                            histoire de passion,
+                            de tradition et de saveurs qui ont traversé le temps. <br>
+                            Au <b>Nouni</b>,
+                            nous croyons en bien plus que de simples repas ; nous croyons en la création de souvenirs.
+                            De la chaleur de notre accueil à l'arôme de nos cuisines, chaque élément témoigne de notre
+                            engagement à offrir une expérience culinaire inoubliable. <br>
+                            <br>
+                            Venez vivre avec nous cette aventure gastronomique, où chaque plat raconte une nouvelle
+                            histoire.
+                            <br>
+
+                            <b style="color: goldenrod;">Merci de faire partie de notre histoire </b>
+
+                        </p>
+
+                        <div class="contact-lable">Réservation par téléphone</div>
+
+                        <a href="tel:+33 6 01 02 03 04" class="body-1 contact-number hover-underline">+33 6 01 02 03
+                            04</a>
+
+                    </div>
+
+                    <figure class="about-banner">
+
+                        <img src="./images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner"
+                            class="w-100" data-parallax-item data-parallax-speed="1">
+
+                        <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+                            <img src="./images/about-abs-image.jpg" alt="" width="285" height="285" loading="lazy"
+                                class="w-100">
+                        </div>
+
+                        <div class="abs-img abs-img-2 has-before" data-parallax-item data-parallax-speed="1.75">
+                            <img src="./images/badge-2.png" alt="" width="133" height="134" loading="lazy">
+                        </div>
+
+
+                    </figure>
+
+                    <img src="./images/shape-3.png" alt="" width="197" height="194" loading="lazy" class="shape">
+
+                </div>
+
+            </section>
+
+
+
+            <section class="special-dish text-center" aria-labelledby="dish-label">
+
+                <div class="special-dish-banner">
+                    <img src="./images/special-dish-banner.jpg" width="940" height="900" loading="lazy"
+                        alt="Plat signature" class="img-cover">
+                </div>
+
+                <div class="special-dish-content bg-black-10">
+                    <div class="container">
+
+                        <img src="./images/badge-1.png" width="28" height="41" loading="lazy" alt="badge"
+                            class="abs-img">
+
+                        <p class="section-subtitle label-2">Plat signature</p>
+
+                        <h2 class="headline-1 section-title">Filet Mignon de Saison</h2>
+
+                        <p class="section-text">
+                            Découvrez l’élégance raffinée du Filet Mignon et sa Purée de Pommes de Terre, où le filet tendre, saisi à la perfection, révèle des notes délicates et juteuses. Il s'accompagne d'une purée onctueuse, subtilement relevée de beurre frais et d’une touche de crème, offrant une texture soyeuse qui fond en bouche. Ce duo intemporel est sublimé par une réduction au vin rouge et aux échalotes, ajoutant une profondeur riche et aromatique. Une pincée de fleur de sel et une garniture de fines herbes fraîches viennent parfaire cette assiette, incarnant l'harmonie parfaite entre tradition et raffinement, pour une expérience culinaire inoubliable.
+                        </p>
+
+
+                        <a href="#menu" class="btn btn-primary">
+                            <span class="text text-1">Voir le Menu</span>
+
+                            <span class="text text-2" aria-hidden="true">Voir le Menu</span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <img src="./images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+
+            </section>
+
+
+
+            <section class="section menu" aria-label="menu-lable" id="menu">
+
+                <div class="container">
+
+                    <p class="section-subtitle text-center lable-2">Selection Spéciale</p>
+
+                    <h2 class="headline-1 section-title text-center">Menu Savoureux</h2>
+
+                    <ul class="grid-list">
+
+                        <li>
+
+                            <div class="menu-card hover:card">
+
+                                <figure class="card-banner img-holder" style="--width: ; --height: ;">
+
+                                    <img src="./images/menu-1.png" width="100" height="100" loading="lazy"
+                                        alt="Greek Salad" class="img-cover">
+                                </figure>
+
+                                <div>
+
+                                    <div class="title-wrapper">
+
+                                        <h3 class="title-3">
+
+                                            <a href="#" class="card-title">Lorem, ipsum.</a>
+                                        </h3>
+
+                                        <span class="badge lable-1">Nouveau</span>
+                                        <span class="span title-2">25€</span>
+
+                                    </div>
+
+                                    <p class="card-text lable-1">Lorem ipsum, dolor sit amet consectetur adipisicing.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+
+                            <div class="menu-card hover:card">
+
+                                <figure class="card-banner img-holder" style="--width: ; --height: ;">
+
+                                    <img src="./images/menu-2.png" width="100" height="100" loading="lazy" alt="Lasagne"
+                                        class="img-cover">
+                                </figure>
+
+                                <div>
+
+                                    <div class="title-wrapper">
+
+                                        <h3 class="title-3">
+
+                                            <a href="#" class="card-title">Lorem</a>
+                                        </h3>
+                                        <span class="span title-2">25€</span>
+
+                                    </div>
+
+                                    <p class="card-text lable-1">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                        elit. Nemo fugit hic optio suscipit repudiandae ipsa ut aut ab voluptatem.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+
+
+                        <li>
+
+                            <div class="menu-card hover:card">
+
+                                <figure class="card-banner img-holder" style="--width: ; --height: ;">
+
+                                    <img src="./images/menu-3.png" width="100" height="100" loading="lazy" alt="Lasagne"
+                                        class="img-cover">
+                                </figure>
+
+                                <div>
+
+                                    <div class="title-wrapper">
+
+                                        <h3 class="title-3">
+
+                                            <a href="#" class="card-title">Lorem</a>
+                                        </h3>
+                                        <span class="span title-2">25€</span>
+
+                                    </div>
+
+                                    <p class="card-text lable-1">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                        elit. Nemo fugit hic optio suscipit repudiandae ipsa ut aut ab voluptatem.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+
+
+
+                        <li>
+
+                            <div class="menu-card hover:card">
+
+                                <figure class="card-banner img-holder" style="--width: ; --height: ;">
+
+                                    <img src="./images/menu-4.png" width="100" height="100" loading="lazy" alt="Lasagne"
+                                        class="img-cover">
+                                </figure>
+
+                                <div>
+
+                                    <div class="title-wrapper">
+
+                                        <h3 class="title-3">
+
+                                            <a href="#" class="card-title">Lorem</a>
+                                        </h3>
+                                        <span class="span title-2">25€</span>
+
+                                    </div>
+
+                                    <p class="card-text lable-1">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                        elit. Nemo fugit hic optio suscipit repudiandae ipsa ut aut ab voluptatem.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+
+
+                        <li>
+
+                            <div class="menu-card hover:card">
+
+                                <figure class="card-banner img-holder" style="--width: ; --height: ;">
+
+                                    <img src="./images/menu-5.png" width="100" height="100" loading="lazy" alt="Lasagne"
+                                        class="img-cover">
+                                </figure>
+
+                                <div>
+
+                                    <div class="title-wrapper">
+
+                                        <h3 class="title-3">
+
+                                            <a href="#" class="card-title">Lorem</a>
+                                        </h3>
+                                        <span class="span title-2">25€</span>
+
+                                    </div>
+
+                                    <p class="card-text lable-1">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                        elit. Nemo fugit hic optio suscipit repudiandae ipsa ut aut ab voluptatem.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+
+
+
+
+                        <li>
+
+                            <div class="menu-card hover:card">
+
+                                <figure class="card-banner img-holder" style="--width: ; --height: ;">
+
+                                    <img src="./images/menu-6.png" width="100" height="100" loading="lazy" alt="Lasagne"
+                                        class="img-cover">
+                                </figure>
+
+                                <div>
+
+                                    <div class="title-wrapper">
+
+                                        <h3 class="title-3">
+
+                                            <a href="#" class="card-title">Lorem</a>
+                                        </h3>
+                                        <span class="span title-2">25€</span>
+
+                                    </div>
+
+                                    <p class="card-text lable-1">Lorem, ipsum dolor sit amet consectetur adipisicing
+                                        elit. Nemo fugit hic optio suscipit repudiandae ipsa ut aut ab voluptatem.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+
+                    <a href="#" class="btn btn-primary">
+
+                        <span class="text text-1">Voir Tout le Menu </span>
+                        <span class="text text-2" aria-hidden="true">Voir Tout le Menu</span>
+                    </a>
+
+                    <img src="./images/shape-5.png" alt="shape" width="921" height="1036" loading="lazy"
+                        class="shape shape-2 move-anim">
+
+                    <img src="./images/shape-6.png" alt="shape" width="343" height="345" loading="lazy"
+                        class="shape shape-3 move-anim">
+
+                </div>
+            </section>
+
+
+            <section class="section testi text-center has-bg-image"
+                style="background-image: url('./images/testimonial-bg.jpg')" aria-label="testimonials">
+                <div class="container">
+
+                    <div class="quote">”</div>
+
+                    <p class="headline-2 testi-text">
+
+                        Je voulais vous remercier de m'avoir invité à ce dîner incroyable l'autre soir. Les plats étaient tout simplement exceptionnels.
+                    </p>
+
+                    <div class="wrapper">
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                    </div>
+
+                    <div class="profile">
+                        <img src="./images/testi-avatar.jpg" width="100" height="100" loading="lazy" alt="Madhav Roy"
+                            class="img">
+
+                        <p class="label-2 profile-name">Théo Bertho</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="reservation" id="reservation">
+                <div class="container">
+
+                    <div class="form reservation-form bg-black-10">
+
+                        <form action="" class="form-left">
+
+                            <h2 class="headline-1 text-center">Réservation en Ligne</h2>
+
+                            <p class="form-text text-center">
+                                Demande de réservation au <a href="tel:+33 6 01 02 03 04" class="link">+33 6 01 02 03 04</a>
+                                ou remplissez le formulaire ci dessous </p>
+
+                            <div class="input-wrapper">
+                                <input type="text" name="name" placeholder="Votre Nom" autocomplete="off"
+                                    class="input-field">
+
+                                <input type="tel" name="phone" placeholder="Numéro de Téléphone" autocomplete="off"
+                                    class="input-field">
+                            </div>
+
+                            <div class="input-wrapper">
+
+                                <div class="icon-wrapper">
+                                    <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                                    <select name="person" class="input-field">
+                                        <option value="1-person">1 Personne</option>
+                                        <option value="2-person">2 Personnes</option>
+                                        <option value="3-person">3 Personnes</option>
+                                        <option value="4-person">4 Personnes</option>
+                                        <option value="5-person">5 Personnes</option>
+                                        <option value="6-person">6 Personnes</option>
+                                        <option value="7-person">7 Personnes</option>
+                                    </select>
+
+                                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                                </div>
+
+                                <div class="icon-wrapper">
+                                    <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                                    <input type="date" name="reservation-date" class="input-field">
+
+                                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                                </div>
+
+                                <div class="icon-wrapper">
+                                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                                    <select name="person" class="input-field">
+                                        <option value="08:00am">08h00</option>
+                                        <option value="09:00am">09h00 am</option>
+                                        <option value="010:00am">10h00 am</option>
+                                        <option value="011:00am">11h00 am</option>
+                                        <option value="012:00am">12h00 am</option>
+                                        <option value="01:00pm">13h00 pm</option>
+                                        <option value="02:00pm">14h00 pm</option>
+                                        <option value="03:00pm">15h00 pm</option>
+                                        <option value="04:00pm">16h00 pm</option>
+                                        <option value="05:00pm">17h00 pm</option>
+                                        <option value="06:00pm">18h00 pm</option>
+                                        <option value="07:00pm">19h00 pm</option>
+                                        <option value="08:00pm">20h00 pm</option>
+                                        <option value="09:00pm">21h00 pm</option>
+                                        <option value="10:00pm">22h00 pm</option>
+                                    </select>
+
+                                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                                </div>
+
+                            </div>
+
+                            <textarea name="message" placeholder="Message" autocomplete="off"
+                                class="input-field"></textarea>
+
+                            <button type="submit" class="btn btn-secondary">
+                                <span class="text text-1">Réserver une Table</span>
+
+                                <span class="text text-2" aria-hidden="true">Réserver une Table</span>
+                            </button>
+
+                        </form>
+
+                        <div class="form-right text-center" style="background-image: url('./images/form-pattern.png')">
+
+                            <h2 class="headline-1 text-center">Contactez-Nous</h2>
+
+                            <p class="contact-label">Réservation au</p>
+
+                            <a href="tel:+33 6 01 02 03 04"
+                                class="body-1 contact-number hover-underline">+33 6 01 02 03 04</a>
+
+                            <div class="separator"></div>
+
+                            <p class="contact-label">Localisation</p>
+
+                            <address class="body-4">
+                                45 Boulevard Chave,<br>
+                                13005, Marseille
+                            </address>
+
+                            <p class="contact-label">Petit-Déjeuner et Déjeuner</p>
+
+                            <p class="body-4">
+                                Lundi au Dimanche <br>
+                                10h00 - 14h30
+                            </p>
+
+                            <p class="contact-label">Diner</p>
+
+                            <p class="body-4">
+                                Lundi au Dimanche<br>
+                                17h00 - 22h00
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+            <section class="section features text-center" aria-label="features">
+                <div class="container">
+
+                    <p class="section-subtitle label-2">Pourquoi nous choisir</p>
+
+                    <h2 class="headline-1 section-title">Nos atouts</h2>
+
+                    <ul class="grid-list">
+
+                        <li class="feature-item">
+                            <div class="feature-card">
+
+                                <div class="card-icon">
+                                    <img src="./images/features-icon-1.png" width="100" height="80" loading="lazy"
+                                        alt="icon">
+                                </div>
+
+                                <h3 class="title-2 card-title">Produits Frais</h3>
+
+                                <p class="label-1 card-text">Savourez en toute confiance chez Nouni,
+                                    où l'excellence est notre priorité absolue.
+                                </p>
+
+                            </div>
+                        </li>
+
+
+
+
+                        <li class="feature-item">
+                            <div class="feature-card">
+
+                                <div class="card-icon">
+                                    <img src="./images/features-icon-2.png" width="100" height="80" loading="lazy"
+                                        alt="icon">
+                                </div>
+
+                                <h3 class="title-2 card-title">Environnement Sain</h3>
+
+                                <p class="label-1 card-text">
+                                    Plongez dans une expérience culinaire d'une fraîcheur absolue chez Nouni.</p>
+
+                            </div>
+                        </li>
+
+
+
+
+
+                        <li class="feature-item">
+                            <div class="feature-card">
+
+                                <div class="card-icon">
+                                    <img src="./images/features-icon-3.png" width="100" height="80" loading="lazy"
+                                        alt="icon">
+                                </div>
+
+                                <h3 class="title-2 card-title">Chefs Qualifiés</h3>
+
+                                <p class="label-1 card-text">
+                                    Élevez vos papilles avec l'art culinaire de nos chefs qualifiés chez Nouni.</p>
+
+                            </div>
+                        </li>
+
+
+
+
+                        <li class="feature-item">
+                            <div class="feature-card">
+
+                                <div class="card-icon">
+                                    <img src="./images/features-icon-4.png" width="100" height="80" loading="lazy"
+                                        alt="icon">
+                                </div>
+
+                                <h3 class="title-2 card-title">Événements & Fêtes</h3>
+
+                                <p class="label-1 card-text">Transformez vos moments en souvenirs avec nos événements exceptionnels.</p>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <img src="./images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+                        class="shape shape-1">
+
+                    <img src="./images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+                        class="shape shape-2">
+
+                </div>
+            </section>
+
+
+            <section class="section event bg-black-10" aria-label="event">
+                <div class="container">
+
+                    <p class="section-subtitle label-2 text-center">Mises à jour Récentes</p>
+
+                    <h2 class="section-title headline-1 text-center">Événement à Venir</h2>
+
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="event-card has-before hover:shine">
+
+                                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                                    <img src="./images/event-1.jpg" width="350" height="450" loading="lazy"
+                                        alt="Des saveurs tellement délicieuses que vous voudrez les déguster du regard." class="img-cover">
+
+                                    <time class="publish-date label-2" datetime="2023-12-25">25/12/2023</time>
+                                </div>
+
+                                <div class="card-content">
+                                    <p class="card-subtitle label-2 text-center">Nourriture, Saveur</p>
+
+                                    <h3 class="card-title title-2 text-center">
+                                        Des saveurs si délicieuses que vous voudrez les savourer du regard.
+                                    </h3>
+                                </div>
+
+                            </div>
+                        </li>
+
+
+
+
+
+
+
+                        <li>
+                            <div class="event-card has-before hover:shine">
+
+                                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                                    <img src="./images/event-2.jpg" width="350" height="450" loading="lazy"
+                                        alt="Des saveurs si délicieuses que vous voudrez les savourer du regard." class="img-cover">
+
+                                    <time class="publish-date label-2" datetime="2024-01-01">01/01/2024</time>
+                                </div>
+
+                                <div class="card-content">
+                                    <p class="card-subtitle label-2 text-center">Nourriture Healthy </p>
+
+                                    <h3 class="card-title title-2 text-center">
+                                        Des saveurs si délicieuses que vous voudrez les savourer du regard.
+                                    </h3>
+                                </div>
+
+                            </div>
+                        </li>
+
+
+
+
+
+
+
+                        <li>
+                            <div class="event-card has-before hover:shine">
+
+                                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                                    <img src="./images/event-3.jpg" width="350" height="450" loading="lazy"
+                                        alt="  Des saveurs si délicieuses que vous voudrez les savourer du regard." class="img-cover">
+
+                                    <time class="publish-date label-2" datetime="2024-01-14">14/01/2024</time>
+                                </div>
+
+                                <div class="card-content">
+                                    <p class="card-subtitle label-2 text-center">Recette</p>
+
+                                    <h3 class="card-title title-2 text-center">
+                                        Des saveurs si délicieuses que vous voudrez les savourer du regard.
+                                    </h3>
+                                </div>
+
+                            </div>
+                        </li>
+
+
+
+
+
+                    </ul>
+
+                    <a href="#" class="btn btn-primary">
+                        <span class="text text-1">Consultez notre blog</span>
+
+                        <span class="text text-2" aria-hidden="true">Consultez notre blog</span>
+                    </a>
+
+                </div>
+            </section>
+
+
+        </article>
+    </main>
+
+
+    <footer class="footer section has-bg-image text-center" id="footer"
+        style="background-image: url('./images/footer-bg.jpg')">
+        <div class="container">
+
+            <div class="footer-top grid-list">
+
+                <div class="footer-brand has-before has-after">
+
+                    <a href="#home" class="logo">
+                        <img src="./images/logo.png" width="200" height="50" loading="lazy" alt="Nouni home">
+                    </a>
+
+                    <address class="body-4">
+                        45 Boulevard Chave 13005, Marseille
+                    </address>
+
+                    <a href="mailto:Nouni@restaurant.com" class="body-4 contact-link">nouni@restaurant.com</a>
+
+                    <a href="tel:+33 6 01 02 03 04" class="body-4 contact-link">Réservation au +33 6 01 02 03 04</a>
+
+                    <p class="body-4">
+                        Ouvert de 10h00 à 22h00 
+                    </p>
+
+                    <div class="wrapper">
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                    </div>
+
+                    <p class="title-1">Recevez les actualités et les offres</p>
+
+                    <p class="label-1">
+                        Abonnez-vous et obtenez <span class="span">25% Off.</span>
+                    </p>
+
+                    <form action="" class="input-wrapper">
+                        <div class="icon-wrapper">
+                            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                            <input type="email" name="email_address" placeholder="Votre email" autocomplete="off"
+                                class="input-field">
+                        </div>
+
+                        <button type="submit" class="btn btn-secondary">
+                            <span class="text text-1">Souscrire</span>
+
+                            <span class="text text-2" aria-hidden="true">Souscrire</span>
+                        </button>
+                    </form>
+
+                </div>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <a href="#home" class="label-2 footer-link hover-underline">Acceuil</a>
+                    </li>
+
+                    <li>
+                        <a href="#menu" class="label-2 footer-link hover-underline">Menus</a>
+                    </li>
+
+                    <li>
+                        <a href="#about" class="label-2 footer-link hover-underline">À Propos</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="label-2 footer-link hover-underline">Notre Story</a>
+                    </li>
+
+                    <li>
+                        <a href="#footer" class="label-2 footer-link hover-underline">Contact</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <a href="https://www.facebook.com/" class="label-2 footer-link hover-underline">Facebook</a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.instagram.com/" class="label-2 footer-link hover-underline">Instagram</a>
+                    </li>
+
+                    <li>
+                        <a href="https://twitter.com/" class="label-2 footer-link hover-underline">Twitter</a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com/" class="label-2 footer-link hover-underline">Youtube</a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.google.com/maps/" class="label-2 footer-link hover-underline">Localisation</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <p class="copyright">
+                    &copy; 2024 Nouni. All Rights Reserved | Créée par <a href="https://github.com/theophileGIT"
+                        target="_blank" class="link">BERTHE Théophile</a>
+                </p>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <script src=" ./js/script.js"></script>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+
+</body>
+
+</html>
